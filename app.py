@@ -2,7 +2,9 @@ import streamlit as st
 import sqlite3
 from quiz_game import get_random_questions, save_score, get_leaderboard, add_question
 
+
 # Streamlit App Title
+
 st.set_page_config(page_title="Quiz Game", page_icon="📚")
 st.title("Quiz Game")
 
