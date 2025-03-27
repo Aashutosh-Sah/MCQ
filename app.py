@@ -9,6 +9,8 @@ st.set_page_config(page_title="Quiz Game", page_icon="📚")
 st.title("Quiz Game")
 
 # Sidebar Menu
+
+
 menu = ["Home", "Admin Panel", "Game Mode", "User Manual"]
 choice = st.sidebar.selectbox("Menu", menu)
 
