@@ -20,6 +20,8 @@ if choice == "Home":
     After completing the quiz, your score will be saved in the database.
     """)
 
+
+
 elif choice == "Admin Panel":
     st.header("Admin Panel")
     admin_id = st.text_input("Admin ID")
